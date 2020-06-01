@@ -1,0 +1,13 @@
+# ♻ Ecoleta - Starter
+
+Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, etc...
+
+O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk Brito.
+
+### Tecnologias utilizadas
+
+- HTML 5
+  - No projeto são utilizadas as tags semânticas do HTML5 para que o projeto seja indexado corretamente pelos motores de busca e seu conteúdo seja organizado.
+ - CSS 3
+   - É utilizado as novas funcionalidades do CSS 3 como Flexbox para alinhar o nosso conteúdo HTML, assim como variáveis para padronizarmos nossas cores e facilitar a manutenção.
+ - JavaScript
