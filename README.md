@@ -1,6 +1,6 @@
 # ♻ Ecoleta - Starter
 
-Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, etc...
+Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, entre outros.
 
 O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk Brito.
 
@@ -16,3 +16,6 @@ O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk
 
 ### Landing Page
 [![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
+
+### Cadastro do ponto de coleta
+[![CADASTRO DO PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/4750d639583d807deff2c391a855b43d3b10435a/screenshots/day-2.PNG)]()
