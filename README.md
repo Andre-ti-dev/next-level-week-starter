@@ -11,3 +11,6 @@ O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk
  - CSS 3
    - É utilizado as novas funcionalidades do CSS 3 como Flexbox para alinhar o nosso conteúdo HTML, assim como variáveis para padronizarmos nossas cores e facilitar a manutenção.
  - JavaScript
+
+### Landing Page
+[![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
