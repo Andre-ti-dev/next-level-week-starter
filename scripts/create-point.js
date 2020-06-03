@@ -19,10 +19,12 @@ function populateCities(stateEvent) {
   stateInput.value = event.target.options[indexOfSelectedState].text;
 
   citySelect.innerHTML = `<option value="">Selecione a cidade</option>`;
+  citySelect.disabled = true;
+
   getCitiesByState(stateId)
   .then(cities => {
     for (const city of cities) {
-      citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`;
+      citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`;
     }
     citySelect.disabled = false;
   });
@@ -33,3 +35,27 @@ populateUFs();
 document
 .querySelector("select[name=uf]")
 .addEventListener("change", populateCities);
+
+// Itens de coleta
+
+const itemsToCollect = document.querySelectorAll(".items-grid li");
+for (const item of itemsToCollect) {
+  item.addEventListener("click", handleSelecetedItem);
+}
+const collectedItems = document.querySelector("input[name=items]");
+let selectedItems = [];
+
+function handleSelecetedItem(itemEvent) {
+  const itemLi = event.target;
+  itemLi.classList.toggle("selected");
+  
+  const itemId = itemLi.dataset.id;
+
+  const alreadySelected = selectedItems.findIndex(item => item == itemId);
+
+  alreadySelected >= 0 ?
+    selectedItems = selectedItems.filter(item => item != itemId) :
+    selectedItems.push(itemId);
+  
+  collectedItems.value = selectedItems;
+}
