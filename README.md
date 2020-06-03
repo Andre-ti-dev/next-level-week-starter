@@ -18,4 +18,7 @@ O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk
 [![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
 
 ### Cadastro do ponto de coleta
-[![CADASTRO DO PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/4750d639583d807deff2c391a855b43d3b10435a/screenshots/day-2.PNG)]()
+[![CADASTRO DO PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/master/screenshots/day3-2.png)]()
+
+### Listagem de ponto de coleta
+[![LISTAGEM DE PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/master/screenshots/day3-3.png)]()
