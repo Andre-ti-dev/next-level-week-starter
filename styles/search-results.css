@@ -5,7 +5,7 @@
 }
 
 #page-search-results header {
-  margin-top: 48px;
+  padding-top: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,13 +71,6 @@ main .card p {
   color: #6C6C80;
 }
 
-body::after {
-  content: "";
-  position: fixed;
-  background: white;
-  top: 260px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
+body {
+  background: linear-gradient(180deg, #f0f0f5 260px, #fff 0px) no-repeat;
 }
