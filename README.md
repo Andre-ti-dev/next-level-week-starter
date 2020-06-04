@@ -13,6 +13,8 @@ O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk
  - JavaScript
    - É abordado o conceito de variáveis utilizando var, let e const, assim como as estrutura de dados e funções, funcionalidades recentes como Fetch API e Promises.
    - Como adicional no projeto foi incluído a funcionalidade de módulos que permite que separemos funcionalidades de forma eficiente em nossa aplicação JavaScript.
+   
+📝  Anotações realizadas durante o desenvolvimento do projeto: [NOTION](https://www.notion.so/Ecoleta-Starter-2cbce81f97e14dca9bd544beee03e5d3)
 
 ### Landing Page
 [![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
