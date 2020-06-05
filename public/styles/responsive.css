@@ -28,14 +28,23 @@
   }
 
   #page-create-point form .field-group {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
+  
   #page-create-point form .field-group .field + .field {
     margin-left: 0px;
   }
 
   #page-create-point .field {
     flex-basis: 100%;
+  }
+
+  #page-create-point .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #page-create-point form button {
+    margin: 40px auto 0;
   }
 
   #page-search-results .cards {

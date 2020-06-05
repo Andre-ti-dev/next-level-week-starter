@@ -1,0 +1,27 @@
+{
+  "name": "Starter",
+  "version": "1.0.0",
+  "description": "Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, entre outros.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-ti-dev/next-level-week-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-ti-dev/next-level-week-starter/issues"
+  },
+  "homepage": "https://github.com/Andre-ti-dev/next-level-week-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
