@@ -1,8 +1,14 @@
 # ♻ Ecoleta - Starter
 
+[![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
+
 Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, entre outros.
 
 O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk Brito.
+
+📝  Anotações realizadas durante o desenvolvimento do projeto: [NOTION](https://www.notion.so/Ecoleta-Starter-2cbce81f97e14dca9bd544beee03e5d3)
+
+[CAPTURAS DE TELA](/screenshots)
 
 ### Tecnologias utilizadas
 
@@ -14,13 +20,22 @@ O projeto é parte da Next Level Week Starter da Rocketseat com o instrutor Mayk
    - É abordado o conceito de variáveis utilizando var, let e const, assim como as estrutura de dados e funções, funcionalidades recentes como Fetch API e Promises.
    - Como adicional no projeto foi incluído a funcionalidade de módulos que permite que separemos funcionalidades de forma eficiente em nossa aplicação JavaScript.
    
-📝  Anotações realizadas durante o desenvolvimento do projeto: [NOTION](https://www.notion.so/Ecoleta-Starter-2cbce81f97e14dca9bd544beee03e5d3)
+ - Node
+   - É abordado a criação de um servidor HTTP utilizando Express, assim como a criação de rotas.
+   - Utilizamos o banco de dados SQLite para persistir os dados da nossa aplicação, criando tabelas e inserindo dados.
+   
+## Instalação
 
-### Landing Page
-[![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
+Após clonar esse repositório instale as dependências com:
+```
+$ npm install
+```
+Crie o banco e a tabela no SQLite com:
+```
+$ node src/database/db.js
+```
 
-### Cadastro do ponto de coleta
-[![CADASTRO DO PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/master/screenshots/day3-2.png)]()
-
-### Listagem de ponto de coleta
-[![LISTAGEM DE PONTO DE COLETA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/master/screenshots/day3-3.png)]()
+E execute a aplicação com o comando.
+```
+$ npm start
+```
