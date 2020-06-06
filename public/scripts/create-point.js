@@ -49,13 +49,13 @@ function handleSelecetedItem(itemEvent) {
   const itemLi = event.target;
   itemLi.classList.toggle("selected");
   
-  const itemId = itemLi.dataset.id;
+  const itemName = itemLi.dataset.name;
 
-  const alreadySelected = selectedItems.findIndex(item => item == itemId);
+  const alreadySelected = selectedItems.findIndex(item => item == itemName);
 
   alreadySelected >= 0 ?
-    selectedItems = selectedItems.filter(item => item != itemId) :
-    selectedItems.push(itemId);
+    selectedItems = selectedItems.filter(item => item != itemName) :
+    selectedItems.push(itemName);
   
   collectedItems.value = selectedItems;
 }

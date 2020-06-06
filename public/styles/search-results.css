@@ -1,3 +1,7 @@
+body {
+  background: white;
+}
+
 #page-search-results {
   width: 90%;
   max-width: 1100px;
@@ -71,6 +75,14 @@ main .card p {
   color: #6C6C80;
 }
 
-body {
-  background: linear-gradient(180deg, #f0f0f5 260px, #fff 0px) no-repeat;
+body::after {
+  content: "";
+  position: absolute;
+  background: #f0f0f5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 16rem;
+  z-index: -1;
 }

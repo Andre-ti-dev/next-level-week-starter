@@ -75,4 +75,11 @@
   background-color: #2fb85e;
 }
 
+#modal.point .content {
+  text-align: center;
+}
 
+#modal.point .content h1 {
+  color: white;
+  margin-top: 32px;
+}
