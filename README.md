@@ -1,6 +1,6 @@
 # ♻ Ecoleta - Starter
 
-[![LANDING PAGE](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/484ce098d70545009949fb6ce88c788ea2b16462/screenshots/day-1.PNG)]()
+[![CAPA](https://raw.githubusercontent.com/Andre-ti-dev/next-level-week-starter/master/Ecoleta%20(Starter).png)]()
 
 Projeto com foco em pontos de coletas de resíduos que não podem ser colocados em conjunto com o lixo convencional como pilhas, baterias, entre outros.
 
